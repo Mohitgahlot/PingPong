@@ -1,0 +1,21 @@
+.sandwich-wrapper {
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("../Images/sandwich_1.jpeg");
+}
+
+
+
+
+/********** SCROLL RIGHT MENU **********/
+
+.sandwich-right label{
+    padding: 22px 11px;
+}
+
+.sandwich-right label:nth-of-type(3){
+    padding: 11px 11px;
+}
+
+.radio{
+    display: none;
+}
+

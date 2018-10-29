@@ -1,0 +1,16 @@
+.shake-wrapper {
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("../Images/shake_1.jpeg");
+}
+
+
+
+
+/********** SCROLL RIGHT MENU **********/
+
+.shake-right label{
+    padding: 11px 11px;
+}
+
+.radio1{
+    display: none;
+}

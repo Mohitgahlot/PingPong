@@ -1,0 +1,115 @@
+
+/*************************** FOOTER *******************************/
+
+.main-footer {
+    padding: 1% 0;
+    background-color: #f5f2dd;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #2f2f2f !important;
+
+}
+
+.footer-wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4% 0 2%;
+}
+
+.nested-col {
+    float: left;
+    width: 25%;
+    padding: 0 1% 1%;
+}
+
+
+.main-footer li {
+    padding: 1px 0;
+}
+
+.main-footer a {
+    color: #2f2f2f;
+}
+
+.footer-heading {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.footer-content {
+    padding-top: 10px;
+}
+
+.icon-contact {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    margin: 10px 0;
+    margin-right: 10px;
+    font-size: 120%;
+}
+
+.social [class*="fa fa-"] {
+    background-color: #333;
+    color: #f5f2dd;
+    display: inline-block;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+
+.main-footer address {
+    margin-top: 35px;
+}
+
+/********** FOOTER FORM **********/
+
+.footer-form input[type="text"] {
+    width: 100%;
+    margin: 0 auto;
+    outline: none;
+    padding: 4%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #2f2f2f;
+    color: #2f2f2f;
+    transition: all 0.4s ease;
+}
+
+
+.si-sec {
+    margin-left: 45px;
+}
+
+.form-btn {
+    display: block;
+    border: 1px solid #000;
+    width: 100%;
+    padding: 2%;
+    margin-top: 8%;
+    text-align: center;
+    background-color: #2f2f2f;
+    border-radius: 2%;
+    color: #f5f2dd !important;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.logo-container {
+    width: 100%;
+    margin-left: -20%;
+}
+
+.logo-container img {
+    width: 232px;
+    height: 232px;
+    border-radius: 5%;
+}

@@ -1,0 +1,345 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 22px;
+    font-family: sans-serif;
+    color:white;
+}
+
+.clearfix:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+* li {
+    list-style: none;
+}
+
+* a {
+    text-decoration: none;
+}
+
+
+
+/********************************************* SIDE NAVIGATION *****************************************************/
+
+
+nav {
+    height: 100vh;
+    width: 26%;
+    background-color: #000;
+    font-size: 120%;
+    font-variant: small-caps;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 9999;
+    margin-left: -26%;
+    transition: margin 1s;
+}
+
+.main-nav {
+    margin-top: 15%;
+}
+
+.main-nav a  {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav a li {
+    list-style: none;
+    padding: 12px 0 12px 28%;
+    width: 100%;
+    margin-bottom: 7px;
+    border-radius: 1px;
+    font-size: 70%;
+}
+
+.main-nav a li:hover {
+    color: rgba(14, 14, 14, 0.86);
+    background-color: #fff;
+    transition: 0.3s linear;
+}
+
+
+.pop-menu{
+    position: fixed;
+    top:-8%;
+    width:80%;
+    z-index: 9999;
+    left: 10%;
+    display: none;
+}
+
+.pop-menu-wrapper{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+}
+
+.pop-menu-wrapper h2{
+    color:white !important;
+}
+
+.cross-pop{
+    font-size: 200%;
+    margin-right: 20px;
+    position: fixed;
+    top:10px;
+    right: 140px;
+    cursor: pointer;
+}
+
+
+
+
+/**************** Navigaiton Icons ***************/
+
+.small-icon {
+    margin-right: 25px;
+    font-size: 163%;
+    width: 30px;
+    padding: 1px;
+    text-align: center;
+}
+
+.nav-close,
+.nav-open{
+    font-size: 200%;
+    color: #fff !important;
+    margin: 10px 0 0 20px;
+    padding-top: 10px;
+    display: inline-block;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.nav-open {
+    position: fixed;
+}
+
+
+.nav-logo {
+    color: #f5f2dd;
+    text-align: center;
+    font-variant: small-caps;
+    display: block;
+    font-style: italic;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size:110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************* SANDWICH AND SHAKE **************************************************/
+
+
+.shake-wrapper,
+.sandwich-wrapper{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10vh;
+}
+
+.sandwich,
+.shakes {
+    border-bottom: 1px solid black;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.shake-right,
+.sandwich-right{
+    position: fixed;
+    top: 25%;
+    right: 0;
+    width: 9.5%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-right: -9.5%;
+    transition: margin 1s;
+    z-index: 10000;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.shake-right label,
+.sandwich-right label{
+    list-style: none;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 75%;
+    text-align: left;
+    color: #fff;
+    display: block;
+}
+
+
+
+
+
+
+/****************** QUOTES *******************/
+
+.quote-block {
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.quote-heading {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    font-size: 230%;
+    text-transform: uppercase;
+    left: 0;
+    width: 100%;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.quote {
+    font-variant: small-caps;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    line-height: 110%;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.quote::before,
+.quote::after {
+    font-size: 250%;
+    position: relative;
+}
+
+.quote::before {
+    content: "\201C";
+    top: 30px;
+    left: -10px;
+}
+
+.quote::after {
+    content: "\201D";
+    top: 40px;
+    left: 10px;
+}
+
+
+
+
+
+
+/******************** ITEM IMAGE ********************/
+
+.item_img {
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    transform: rotate(10deg);
+}
+
+.heading-box {
+    width: 100%;
+    text-align: center;
+}
+
+.heading-box h1 {
+    text-align: center;
+    padding-top: 7%;
+    font-variant: small-caps;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: inline-block;
+
+}
+
+.heading-box h1 div {
+    height: 1px;
+    background-color: #fff;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+
+.item-description {
+    width: 45%;
+    float: right;
+    margin-top: 10%;
+    padding: 0 2%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
+    line-height:120%;
+    font-weight: 300;
+    font-size: 100%;
+}
+
+
+
+
+
+/*--------------------------------------Menu Nav----------------------------------------*/
+
+.menu-nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    text-align: center;
+}
+
+.menu-nav .menu-nav-content{
+    text-align: center;
+    display: inline-block;
+    padding: 0 5px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.menu-nav .menu-nav-content section{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+

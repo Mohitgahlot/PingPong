@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.locate-container {
+    font-size: 19px;
+    color: #fff;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../Images/contact.jpg");
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+.locate-wrapper {
+    width: 90%;
+    padding: 5% 0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.contact-box {
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    width: 45%;
+}
+
+.contact-box:first-of-type{
+    margin-right: 10%;
+}
+
+.locate-wrapper h3 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+.locate-wrapper p {
+    font-size: 100%;
+    font-weight: 300;
+}
+
+.inner-box {
+    width: 90%;
+    margin: 3% auto;
+}
+
+._text {
+    margin-left: 52px;
+}
+
+.contact-icon {
+    font-size: 140%;
+    margin-right: 8%;
+    width: 25px;
+    height: 30px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.over-flow {
+    width: 90%;
+    height: 40%;
+    overflow: hidden;
+    margin: 8% auto 0;
+}
+
+#map {
+    width: 120%;
+    height: 80%;
+}
+
+/********* CONTACT FORM *********/
+
+.contact-form-box {
+    margin-top: 15%;
+    padding: 0 3%;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+    font-size: 100%;
+}
+
+.cf-basic {
+    margin-bottom: 13.5%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 2% 2%;
+    background: #000;
+    color: #fff;
+    outline: none;
+    border: 0.1px solid #999;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    font-size: 80%;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 2px #000;
+}
+
+.cf-btn-container {
+    display: block;
+    margin-top: 20%;
+}
+
+.cf-btn {
+    width: 100%;
+    padding: 2% 2%;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-weight: 700;
+    border-radius: 3px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.cf-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/******* CONTACT ********/
+
+.content-box h2 {
+    margin-bottom: 3%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.content-box p{
+    text-align: center;
+}
+
+.content-box {
+    margin-top: 45px;
+    padding: 0 2%;
+    font-size: 16px;
+}
